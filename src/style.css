@@ -152,16 +152,36 @@ ul .active-link::after {
   border-radius: 20px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
 }
-.about-container .card h3 {
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--second-color);
-}
 .about-container .card div {
   text-align: center;
   font-size: 17px;
   color: var(--text-color);
+}
+.about-container .list {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 65px 70px;
+  width: 100%;
+}
+.about-container .list h3 {
+  text-align: center;
+}
+.about-container .list .item {
+  font-size: 17px;
+  padding: 5px;
+  color: var(--text-color);
+  position: relative;
+}
+.about-container .list .item::before {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -17px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: var(--first-color);
 }
 
 :root {
