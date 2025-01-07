@@ -5,11 +5,13 @@
   --logo-color: rgb(218, 70, 102);
 
   --text-color: rgb(68, 68, 68);
+  --first-color: rgb(110, 87, 224);
 }
 
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: var(--body-color);
 
@@ -28,12 +30,7 @@ body {
   padding-inline: 10vw;
 
   .home-box {
+    padding-block: 6em;
     height: 100vh;
     min-height: 700px;
   }
-
-  .section {
-    padding-block: 6em;
-    min-height: 700px;
-  }
-}
