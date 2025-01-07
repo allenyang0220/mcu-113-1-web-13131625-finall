@@ -5,8 +5,12 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
+
   &:hover {
     background-color: var(--second-color);
     color: var(--withe-color);
+  }
+  > i {
+    margin-left: 10px;
   }
 }
