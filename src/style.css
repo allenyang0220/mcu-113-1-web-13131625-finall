@@ -192,11 +192,22 @@ ul .active-link::after {
 }
 .skill-container .skill-item {
   flex-basis: calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 .skill-container .skill {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.skill-container .progress-bar-wrap {
+  height: 10px;
+  border: 1px solid #ccc;
+}
+.skill-container .progress-bar-wrap .progress-bar {
+  height: 10px;
+  background-color: var(--first-color);
 }
 
 :root {
