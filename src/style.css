@@ -32,6 +32,10 @@ ul .nav-link {
   --text-color: rgb(68, 68, 68);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--body-color);
 }
