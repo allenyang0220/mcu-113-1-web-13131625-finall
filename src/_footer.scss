@@ -10,10 +10,13 @@ footer {
     font-size: 25px;
     font-weight: 600;
   }
+
   .footer-menu {
     display: flex;
+
     .menu-item {
       list-style: none;
+
       a {
         text-decoration: none;
         color: var(--text-color);
@@ -21,5 +24,9 @@ footer {
         margin-inline: 20px;
       }
     }
+  }
+  .footer-icons {
+    display: flex;
+    gap: 30px;
   }
 }
